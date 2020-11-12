@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+    <!-- Action to open -->
+    <act_window id="partner_act_window_id"
+      name="Partners"
+      res_model="my_partner"
+	  view_mode="tree,form"
+	/>
+    <!-- Menu item to open -->
+    <menuitem id="partner_menuitem_id"
+      name="Partners"
+	  action="partner_act_window_id"
+    />
+
+</odoo>

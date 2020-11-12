@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <!-- Partner Form view -->
+    <record id="partner_form" model="ir.ui.view"> 
+            <field name="name">partner.test</field>
+            <field name="model">my_partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+			<form>
+                    <field name="inn" />
+					<field name="kpp" />
+			</form>
+            </field>
+</record>
+
+</odoo>
+
+
+
